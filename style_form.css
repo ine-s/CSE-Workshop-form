@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0px;
+    /* this code is used to limit the content due to the div */
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(56, 61, 89);
+    /* 100vh = view heigh (means take all the page area) */
+    height: 100vh;
+    /* The next code is to make the container body flexibale and centripical in the browser page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* END */
+}
+
+.container .form-container {
+    background-color: snow;
+    height: 560px;
+    width: 400px;
+    font-family: Dosis;
+}
+
+.container .form-container form {
+    padding: 30px 20px;
+}
+
+.container .form-container .form-header {
+    color: slategray;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: space-between;
+    margin: 5px 0 30px 0;
+}
+
+.header {
+    color: slategray;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.container {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.form-input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #EEE;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+
+input {
+    width: 100%;
+    border: none;
+    height: 50px;
+    padding: 0 5px;
+}
+
+textarea {
+    width: 120px;
+    height: 100%;
+    border: none;
+}
